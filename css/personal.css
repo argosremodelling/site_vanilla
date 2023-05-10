@@ -1,0 +1,34 @@
+.p-100vh{
+    height: 100vh;
+}
+
+.p-align-centered{
+    align-content: space-evenly;
+}
+
+.p-canva{
+    height: 500px;
+}
+
+.p-canva img{
+    margin: auto;
+}
+
+.p-bg-dark-linght{
+    background-color: rgba(0,0,0,0.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .p-animate-working {
+      animation: We-are-working infinite 1.5s alternate-reverse;
+    }
+}
+
+@keyframes We-are-working {
+    from {
+      color: rgba(0,0,0,1);
+    }
+    to {
+      color: rgba(0,0,0,0.2);
+    }
+  }
