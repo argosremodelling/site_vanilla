@@ -1,5 +1,11 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 .p-100vh{
     height: 100vh;
+}
+.p-50vh{
+  height: 50vh;
 }
 
 .p-align-centered{
